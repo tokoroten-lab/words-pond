@@ -1,4 +1,4 @@
-# words_pond
+# words-pond
 
 ## Project setup
 ```

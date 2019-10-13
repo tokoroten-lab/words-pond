@@ -1,6 +1,6 @@
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production'
-    ? '/words_pond/'
+    ? '/words-pond/'
     : '/',
   configureWebpack: {
     resolve: {
