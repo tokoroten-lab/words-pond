@@ -1,18 +1,13 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Words Pond logo" src="../assets/words-pond-logo.png" width="256" height="256">
+    <h1>Welcome to Words Pond</h1>
+    <p>Words Pond is a web application that helps you learn english words(<router-link to="/about">Click here for details</router-link>)</p>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
   name: 'home',
-  components: {
-    HelloWorld
-  }
 }
 </script>
