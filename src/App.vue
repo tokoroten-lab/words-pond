@@ -6,8 +6,21 @@
       <router-link to="/drop-words">Drop words</router-link>
     </div>
     <router-view/>
+    <mdb-btn id="page-top-button" outline="primary"><mdb-icon icon="angle-double-up" class="mr-2" />Top</mdb-btn>
   </div>
 </template>
+
+<script>
+import { mdbBtn, mdbIcon } from 'mdbvue';
+
+export default {
+  name: 'app',
+  components: {
+    mdbBtn,
+    mdbIcon,
+  }
+}
+</script>
 
 <style>
 #app {
@@ -28,5 +41,12 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+#page-top-button {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #fff !important;
 }
 </style>
