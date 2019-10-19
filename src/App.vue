@@ -6,7 +6,7 @@
       <router-link to="/drop-words">Drop words</router-link>
     </div>
     <router-view/>
-    <mdb-btn id="page-top-button" outline="primary"><mdb-icon icon="angle-double-up" class="mr-2" />Top</mdb-btn>
+    <mdb-btn id="page-top-button" tag="a" role="button" outline="primary" href="#app"><mdb-icon icon="angle-double-up" class="mr-2" />Top</mdb-btn>
   </div>
 </template>
 
