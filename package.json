@@ -9,6 +9,8 @@
     "start": "vue-cli-service serve --open"
   },
   "dependencies": {
+    "aws-amplify": "^1.2.2",
+    "aws-amplify-vue": "^0.3.2",
     "compromise": "^11.14.3",
     "core-js": "^2.6.5",
     "mdbvue": "5.8.3",
