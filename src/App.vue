@@ -12,13 +12,15 @@
 
 <script>
 import { mdbBtn, mdbIcon } from 'mdbvue';
+import { components } from 'aws-amplify-vue'
 
 export default {
   name: 'app',
   components: {
     mdbBtn,
     mdbIcon,
-  }
+    ...components,
+  },
 }
 </script>
 
